@@ -1,0 +1,132 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2580
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fswiss\fcharset0 Helvetica-Bold;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww31500\viewh14920\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Ls\
+\
+Ls -al\
+\
+Pwd\
+\
+Git add\
+\
+Git add .\
+\
+Git init \
+\
+Git status\
+\
+Git commit -m \
+\
+Git commit -am\
+\
+Git reset HEAD \'93FILE NAME.FILE Extension\'94\
+\
+Git log\
+\
+Git log \'97online \'97graph \'97decorate \'97a :- To log all in one line with heirarchy\
+\
+Git show\
+\
+Rm -rf \'93FILENAME\'94\
+\
+Git ls-files\
+\
+Touch \'93filename.type\'94\
+\
+Pwd :- for path of current terminal \
+\
+Git config \'97global user.name \'93Deepu Kumar\'94\
+Git config \'97global user.email \'93Deepukumarpu@outlook.com\
+\
+Git checkout \'97\'93Filename\'94\
+\
+Git config \'97global alias.\'94ALIAS NAME\'94 \'93THE COMMAND WHICH WE WANT TO MAKE ALIAS\'94\
+\
+Git config \'97global \'97list:- To show all the list in config\
+\
+Git mv \'93OLD FILE NAME \'94 \'93NEW FILE NAME\'94 :- This is just only staged. Commit is yet to be done\
+\
+Git rm \'93 FILE NAME \'94 :-  This is only staged. Commit is yet to be done\
+\
+Git add -u :- To update and add the file to the staging area.\
+\
+To ignore file that are not needed to add every time. Like log files etc.. then we need\
+to create a .gitignore file and then in that file we need to add the extensions or file name in that file and then add and commit it in the git\
+\
+Git diff \'93COMMIT ID\'94 HEAD :- This command is used to get difference in the file commits\
+Git difftool \'93COMMIT ID\'94 HEAD :- This command will open a p4 merge git diff tool that can be use to check the difference\
+\
+Git diff and git diff tool can be simply used to find the last difference that is left to know.\
+\
+
+\f1\b Types of Merges:\
+Fast Forward
+\f0\b0 \
+	simplest Case\
+	Like never happend (Commits on Destination)\
+	Can be disabled.\
+
+\f1\b Automatic Merge:
+\f0\b0 \
+	Non -Conficting merge detected.\
+	Preserve Both Timelines\
+	Merge commits on Destination\
+ 
+\f1\b Manual Merge
+\f0\b0 \
+	Automatic Merge not possible\
+	Conficting merge state\
+	Changes saved in Merge Commit.\
+\
+HEAD is a pointer that points to the last commit\
+\
+\
+Git checkout -b \'93NEW BRANCH NAME\'94 :- This command helps to created new branch and automatcaly switch to the new branch.\
+G it branch \'93BRANCH NAME\'94\
+\
+Git branch -d \'93BRANCH NAME\'94 :- This helps to delete a branch\
+\
+Git branch :- to show all the branches\
+\
+Git merge \'93BRANCH NAME\'94 :- This will merge the branch name with the current branch\
+\
+Git checkout \'93BRANCH NAME\'94 :- This will change the branch with the given name.\
+\
+Git diff \'93BRANCH NAME\'94 \'93SECOND BRANCH NAME\'94 :- This will helot check the difference of both the given branches. \
+\
+Cat filename :-\
+\
+Git mergetool :- This help to merge using a merge tool.\
+\
+Git tag \'93TAG NAME\'94 :- if we don\'92t specify the commit . Then it will tag the latest commit which will be the head.\
+\
+Git tag -a \'93ANOTATION\'94 -m \'93THE MESSAGE\'94 :- This is used to make annotated tag. Where we can see anotaion instead of the message using this tag\
+\
+Git tag -d \'93TAG NAME\'94 :- This is used to delete the created the tag.\
+\
+
+\f1\b Stashing\
+\
+
+\f0\b0 Stashing help to pause our current work without staging or committing \
+\
+To stash just write command\
+Git stash\
+\
+Git Stash show
+\f1\b 	:- 
+\f0\b0 To get all the stash currently created\
+Git stash list :- To get all the stash list\
+\
+Git stash show stash@\{   The stash number (lasted will be number 0)    \}
+\f1\b \
+\
+Reset\
+\
+	
+\f0\b0 git reset \'93COMMIT ID\'94 \'97soft :- This will help to change the HEAD to the given commit id.\
+		that is it will reset out commit to the given commit id. And we can continue from there.}
